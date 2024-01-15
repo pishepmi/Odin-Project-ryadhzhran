@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper</title>
+    <meta name="author" content="Phisemy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rockpaper.css">
+</head>
+
+<body>
+<audio id="startgamesound" src="src/clicksound.mp3"></audio>
+<div class="container" id="startcontainer">
+    <button id="startgame">Start Game</button>
+    </div>
+    <script src="rockpaper.js"></script>
+    <div class="container" id="endcontainer">
+        <div class="topcontainer">
+            <h1 id="gameh1"></h1>
+        </div>
+    <div class="gamecontainer">
+        <div class="playercontainer">
+           <h1 class="h1player">You</h1>
+           <div class="playerinformation">
+            <div class="playerlogo">
+                <img class="logo" src="./image/playerlogo.jpg" alt="Player logo">
+            </div>
+            <div class="playerscore">
+                <p class="score" id="playerscore">Your Score : 0</p>
+            </div>
+           </div>
+           <div class="gameselections">
+            <div class="gameselection" id="thumbdiv">
+                <p class="gameselectiontext" id="thumbselection">Thumb Finger</p>
+                <img class="selection" id="thumbimg" src="./image/thumb.jpg" alt="Thumb Finger">
+            </div>
+            <div class="gameselection" id="indexdiv">
+                <p class="gameselectiontext" id="indexselection">Index Finger</p>
+                <img class="selection" id="indeximg" src="./image/index.jpg" alt="Index Finger">
+            </div>
+            <div class="gameselection" id="pinkydiv">
+                <p class="gameselectiontext" id="pinkyselection">Pinky Finger</p>
+                <img class="selection" id="pinkyimg" src="./image/pinky.jpg" alt="Pinky Finger">
+            </div>
+           </div>
+        </div>
+        <div class="playercontainer">
+            <h1 class="h1player">Computer</h1>
+            <div class="playerinformation">
+                <div class="playerlogo">
+                    <img class="logo" src="./image/computer.jpg" alt="Logo Komputer">
+                </div>
+                <div class="playerscore">
+                    <p class="score" id="computerscore">Computer Score : 0</p>
+                </div>
+            </div>
+            <div class="gameselections">
+                <div class="gameselection" id="computerthumbdiv">
+                    <p class="gameselectiontext" id="computerthumbselection">Thumb Finger</p>
+                    <img class="selection" src="./image/thumb.jpg" alt="Thumb Finger">
+                </div>
+                <div class="gameselection" id="computerindexdiv">
+                    <p class="gameselectiontext" id="computerindexselection">Index Finger</p>
+                    <img class="selection" src="./image/index.jpg" alt="Index Finger">
+                </div>
+                <div class="gameselection" id="computerpinkydiv">
+                    <p class="gameselectiontext" id="computerpinkyselection">Pinky Finger</p>
+                    <img class="selection" src="./image/pinky.jpg" alt="Pinky Finger">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomcontainer" id="bottomcontainer">
+        <div class="winninglogodiv">
+            <img class="winninglogo" id="userwinslogo" src="image/playerlogo.jpg">
+            <img class="winninglogo" id="robotwinslogo" src="image/computer.jpg">
+        </div>
+        <p class="gameupdates"></p>
+        <a href="rockpaper.html" id="endbutton">Play Again?</button>
+    </div>
+</div>
+    
+</body>
+</html>

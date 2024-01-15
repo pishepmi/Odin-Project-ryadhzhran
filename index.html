@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phisemy</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="nav">
+        <nav>
+            <div class="logo"><img src="./src/logo.jpg" alt="Phisemy Logo"></div>
+            <div class="menu-toggle-container">
+                <div class="menu-toggle">&#9776;</div>
+            </div>
+            <ul>
+                <li><a href="#" onclick="showArticle('home')">Home</a></li>
+                <li><a href="#" onclick="showArticle('my-project')">My Project</a></li>
+                <li><a href="#" onclick="showArticle('abouts')">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="home">
+        <section class="about">
+            <div class="about-text">
+                <h1>Curiosity Is Reason To Live</h1>
+                <p>Curiosity is the spark that ignites the flame of life's purpose. 
+                    It is the insatiable hunger for knowledge and understanding that propels us forward, 
+                    driving us to explore, learn, and grow. Curiosity is the reason we seek answers to the 
+                    mysteries of the universe, the driving force behind scientific discoveries, artistic creations, 
+                    and technological innovations.</p>
+            </div>
+            <div class="about-image">
+                <img src="./src/about.jpg" alt="Image Curiosity">
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>My Curiosity is About Data</h2>
+            <div class="feature-container">
+                <div class="feature">
+                    <img src="./src/a.jpg" alt="Data Engineer">
+                    <div class="ftext">
+                        <h3>Data Engineer</h3>
+                        <p>
+                            A data engineer is a professional responsible for designing, developing, and managing the infrastructure and systems required to collect, process, store, and analyze data. They work to ensure that data is available, reliable, and easily accessible to data scientists, analysts, and other stakeholders. Data engineers are skilled in working with various data storage technologies, data pipelines, and ETL (Extract, Transform, Load) processes.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./src/b.jpg" alt="Data analysts">
+                    <div class="ftext">
+                        <h3>Data Analyst</h3>
+                        <p>
+                            A data analyst is a professional who specializes in examining data to derive meaningful insights and support decision-making within an organization. They are responsible for collecting, cleaning, and organizing data, as well as performing statistical analysis and data visualization. Data analysts work with tools and software to identify trends, patterns, and correlations in the data, helping businesses make informed choices and solve problems.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="./src/c.jpg" alt="Data Science">
+                    <div class="ftext">
+                        <h3>Data Science</h3>
+                        <p>
+                            Data science is a multidisciplinary field that combines techniques from statistics, computer science, and domain expertise to extract valuable insights and knowledge from data. Data scientists are responsible for collecting, cleaning, and analyzing large datasets to uncover patterns, trends, and correlations that can inform business decisions, solve problems, and drive innovation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="connect-projects">
+            <div class="connect-container">
+                <p>But right now, I'm expanding my skills in web programming through</p>
+                <h2>The Odin Project</h2>
+                <p>An open-source curriculum designed to empower aspiring web developers with hands-on projects and real-world challenges.</p>
+            </div>
+        </section>
+        
+        <section class="odin-project">
+            <div class="odin-container">
+                <div class="odin-text">
+                    <h2>Explore The Odin Project</h2>
+                    <p>The Odin Project is an open-source curriculum designed to teach you web development. Whether you're a complete beginner or looking to expand your skills, The Odin Project has something for everyone.</p>
+                    <p>Key features of The Odin Project:</p>
+                    <ul>
+                        <li>Hands-on projects and coding challenges</li>
+                        <li>Comprehensive curriculum covering front-end and back-end development</li>
+                        <li>Community support and forums for collaboration</li>
+                        <li>Self-paced learning with real-world projects</li>
+                    </ul>
+                    <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">Start Your project</a>
+                </div>
+                <div class="odin-image">
+                    <img src="./src/odinproject.png" alt="The Odin Project">
+                </div>
+            </div>
+
+            <div class="projects">
+                <h2>My Projects</h2>
+                <p>Explore my simple projects:</p>
+                <div class="project-buttons">
+                    <a href="./calculator/calculator.html" target="_blank" rel="noopener noreferrer">Calculator</a>
+                    <a href="./simplegame/rockpaper.html" target="_blank" rel="noopener noreferrer">Rock Paper Scissors</a>
+                    <a href="./sketch/sketch.html" target="_blank" rel="noopener noreferrer">Etch a Sketch</a>
+                </div>
+            </div>
+        </section>
+
+    </article> 
+
+    <article class="my-project">
+        <div class="project-container">
+            <section id="calculatorArticle" class="iframe-container">
+                <h2>Calculator</h2>
+                <iframe src="./calculator/calculator.html" ></iframe>
+            </section>
+            
+            <section id="sketchArticle" class="iframe-container">
+                <h2>Etch-a-Sketch</h2>
+                <iframe src="./sketch/sketch.html" ></iframe>
+            </section>
+            
+            <section id="rockPaperArticle" class="iframe-container">
+                <h2>Rock Paper Scissors</h2>
+                <iframe src="./simplegame/rockpaper.html"></iframe>
+            </section>
+        </div>
+    </article>
+    
+
+    <article class="abouts">
+        <div class="overview-section">
+            <h2>Overview</h2>
+            <p>I am currently enrolled in The Odin Project, an immersive web development course that equips aspiring developers with a comprehensive set of skills. Throughout this course, I have delved into various key aspects of web development, mastering HTML, CSS, and JavaScript. The curriculum extends beyond the fundamentals, covering essential topics such as responsive design, version control with Git, and building interactive websites. Additionally, I have gained hands-on experience by working on real-world projects, solidifying my understanding of web development concepts. The Odin Project has provided me with a structured and engaging learning path, empowering me to become a proficient web developer. This is a selection of courses that I have studied within The Odin Project curriculum.</p>
+        </div>
+    
+        <div class="introduction-section">
+            <h3>Introduction</h3>
+            <ul>
+                <li>How This Course Will Work</li>
+                <li>Introduction to Web Development</li>
+                <li>Motivation and Mindset</li>
+                <li>Asking For Help</li>
+                <li>Join the Odin Community</li>
+            </ul>
+        </div>
+    
+        <div class="prerequisites-section">
+            <h3>Prerequisites</h3>
+            <ul>
+                <li>Computer Basics</li>
+                <li>How Does the Web Work?</li>
+                <li>Installation Overview</li>
+                <li>Installations</li>
+                <li>Text Editors</li>
+                <li>Command Line Basics</li>
+                <li>Setting up Git</li>
+            </ul>
+        </div>
+    
+        <div class="git-basics-section">
+            <h3>Git Basics</h3>
+            <ul>
+                <li>Introduction to Git</li>
+                <li>Git Basics</li>
+            </ul>
+        </div>
+    
+        <div class="html-foundations-section">
+            <h3>HTML Foundations</h3>
+            <ul>
+                <li>Introduction to HTML and CSS</li>
+                <li>Elements and Tags</li>
+                <li>HTML Boilerplate</li>
+                <li>Working with Text</li>
+                <li>Lists</li>
+                <li>Links and Images</li>
+                <li>Commit Messages</li>
+                <li>Project: Recipes</li>
+            </ul>
+        </div>
+    
+        <div class="css-foundations-section">
+            <h3>CSS Foundations</h3>
+            <ul>
+                <li>Intro to CSS</li>
+                <li>The Cascade</li>
+                <li>Inspecting HTML and CSS</li>
+                <li>The Box Model</li>
+                <li>Block and Inline</li>
+            </ul>
+        </div>
+    
+        <div class="flexbox-section">
+            <h3>Flexbox</h3>
+            <ul>
+                <li>Introduction to Flexbox</li>
+                <li>Growing and Shrinking</li>
+                <li>Axes</li>
+                <li>Alignment</li>
+                <li>Project: Landing Page</li>
+            </ul>
+        </div>
+    
+        <div class="javascript-basics-section">
+            <h3>JavaScript Basics</h3>
+            <ul>
+                <li>Fundamentals Part 1</li>
+                <li>Fundamentals Part 2</li>
+                <li>JavaScript Developer Tools</li>
+                <li>Fundamentals Part 3</li>
+                <li>Problem Solving</li>
+                <li>Understanding Errors</li>
+                <li>Project: Rock Paper Scissors</li>
+                <li>Clean Code</li>
+                <li>Installing Node.js</li>
+                <li>Fundamentals Part 4</li>
+                <li>DOM Manipulation and Events</li>
+                <li>Revisiting Rock Paper Scissors</li>
+                <li>Project: Etch-a-Sketch</li>
+                <li>Fundamentals Part 5</li>
+                <li>Project: Calculator</li>
+            </ul>
+        </div>
+
+    </article>
+    <footer class="last-panel">
+        <div class="last-container">
+            <p>&copy; 2023 Phisemy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

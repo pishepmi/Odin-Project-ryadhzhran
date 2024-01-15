@@ -1,0 +1,225 @@
+body {
+    /* Main background image with styling */
+    background-color: rgb(211, 211, 211);
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+  }
+  #startgame {
+    margin-bottom: 150px;
+    text-transform: uppercase;
+    padding: 2vw;
+    border: none;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vw;
+    border-radius: 3px;
+    box-shadow: 4px 5px 0px;
+    border-bottom: 2px solid;
+    border-right: 1px solid;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    transform: translate(-1%, -3%);
+  }
+  #startgame:hover {
+    background-color: lightgrey;
+    box-shadow: 3px 3px 1px;
+    border-bottom: 2px solid;
+    transform: translate(-1%, -1%);
+    transition: all 0.1s ease-in;
+}
+
+#startgame:active {
+    box-shadow: none;
+    border-bottom-width: 2px;
+    transform: translate(3px, 4px);
+}
+
+#endbutton {
+    min-width:100px;
+    height:50px;
+    margin-bottom: 150px;
+    text-transform: uppercase;
+    padding: 2vw;
+    border: none;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400px;
+    font-size: 3vw;
+    border-radius: 3px;
+    box-shadow: 4px 5px 0px;
+    border-bottom: 2px solid;
+    border-right: 1px solid;
+    margin: 0;
+    position: relative;
+    top: 45%;
+    transform: translate(-1%, -3%);
+}
+
+#endbutton:link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 4px 5px 0px black;
+}
+
+#endbutton:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#endbutton:hover {
+    color: black;
+    background-color: lightgrey;
+    box-shadow: 3px 3px 1px black;
+    border-bottom: 2px solid;
+    transform: translate(-1%, -1%);
+    transition: all 0.1s ease-in;
+}
+
+#endbutton:active {
+    box-shadow: none;
+    border-bottom-width: 2px;
+    transform: translate(3px, 4px);
+}
+
+.container {
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+}
+
+#endcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gamecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.topcontainer {
+    color: black;
+    font-size: 2vw;
+}
+
+.bottomcontainer {
+    font-size: 4vw;
+    display: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.playercontainer {
+    font-size: 2vw;
+    background-color: rgb(70, 70, 70);
+    border-radius: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    width: 40vw;
+    height: 35vw;
+}
+
+.playerinformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerlogo {
+    margin-right: 1vw;
+}
+
+.h1player {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    height: 8vw;
+    width: 8vw;
+    border-radius: 10px;
+}
+
+.winninglogo {
+    display: none;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playerscore {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.gameselections {
+    display: flex;
+    justify-content: center;
+}
+
+.gameselection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 10vw;
+    height: 12vw;
+    margin: 0.5vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+    box-shadow: 4px 5px 0px black;
+    border-bottom: 2px solid;
+    border-right: 1px solid;
+    transform: translate(-1%, -3%);
+}
+
+.gameselection:hover {
+    background-color: lightgrey;
+    box-shadow: 3px 3px 1px;
+    border-bottom: 2px solid;
+    transform: translate(1%, -1%);
+    transition: all 0.1s ease-in;
+}
+
+.gameselection:active {
+    box-shadow: none;
+    transform: translate(3px, 4px);
+}
+
+.gameselectiontext {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.selection {
+    height: 8vw;
+    width: 8vw;
+}
+
+.winninglogodiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
